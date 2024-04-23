@@ -46,4 +46,5 @@
     },
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
+    "cmake.configureOnOpen": true,
 }

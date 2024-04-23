@@ -100,7 +100,7 @@
 //#define DISABLE_CONNECTING_MSG
 
 //Serial rx buffer size is 256 but can be extended
-#define SERIAL_RX_BUFFER_SIZE 512
+#define SERIAL_RX_BUFFER_SIZE 1024
 
 //Serial Parameters
 #define ESP_SERIAL_PARAM SERIAL_8N1
@@ -351,7 +351,7 @@ typedef enum {
 #define EP_TARGET_FW        461 //1  bytes = flag
 #define EP_TIMEZONE         462//1  bytes = flag
 #define EP_TIME_ISDST       463//1  bytes = flag
-#define EP_TIME_SERVER1 464//128 bytes 127+1 = string  ; warning does not support multibyte char like chinese  
+#define EP_TIME_SERVER1 464//128 bytes 127+1 = string  ; warning does not support multibyte char like chinese
 #define EP_TIME_SERVER2  593 //128 bytes 127+1 = string  ; warning does not support multibyte char like chinese
 #define EP_TIME_SERVER3  722 //128 bytes 127+1 = string  ; warning does not support multibyte char like chinese
 #define EP_IS_DIRECT_SD   850//1  bytes = flag
