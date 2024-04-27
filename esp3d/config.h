@@ -100,14 +100,14 @@
 //#define DISABLE_CONNECTING_MSG
 
 //Serial rx buffer size is 256 but can be extended
-#define SERIAL_RX_BUFFER_SIZE 1024
+#define SERIAL_RX_BUFFER_SIZE 256
 
 //Serial Parameters
 #define ESP_SERIAL_PARAM SERIAL_8N1
 
 //which serial ESP use to communicate to printer (ESP32 has 3 serials available, ESP8266 only one)
 //Uncomment one only
-#define USE_SERIAL_0
+#define USE_SERIAL_2
 //For ESP32 Only
 //#define USE_SERIAL_1
 //#define USE_SERIAL_2
