@@ -213,6 +213,46 @@
       "contributions": [
         "platform"
       ]
+    },
+    {
+      "login": "dbuezas",
+      "name": "David Buezas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/777196?v=4",
+      "profile": "https://github.com/dbuezas",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Engineer2Designer",
+      "name": "E2D",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25747949?v=4",
+      "profile": "http://engineer2designer.blogspot.com",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "rondlh",
+      "name": "rondlh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77279634?v=4",
+      "profile": "https://github.com/rondlh",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "Levak",
+      "name": "Levak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2292040?v=4",
+      "profile": "https://github.com/Levak",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -220,5 +260,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "ESP3D",
-  "projectOwner": "luc-github"
+  "projectOwner": "luc-github",
+  "commitType": "docs"
 }
